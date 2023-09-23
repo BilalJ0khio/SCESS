@@ -1,0 +1,150 @@
+@media (max-width: 800px) {
+  .contact-details-container {
+    grid-template-columns: 1fr;
+  }
+  .personal-details-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .logo-container {
+    text-align: center;
+  }
+  .email-container,
+  .phone-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .flex-10 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .flex-10 span {
+    display: block;
+    font-size: 1.5rem;
+  }
+  .carousel-text-container {
+    width: 90%;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    max-width: 50px !important;
+  }
+
+  .main-cause-container {
+    grid-template-columns: 1fr;
+  }
+  .child-figure {
+    display: none;
+  }
+  .navigation-container {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .nav-social-sites > :last-child {
+    margin-left: auto;
+  }
+  .donation-main-container {
+    grid-template-columns: 1fr;
+    background: rgb(0, 0, 0) url(images/cta-3-children.jpg) 100% top/auto
+      no-repeat local;
+    background-color: black;
+    padding: 7rem 2rem;
+  }
+
+  .cta-container {
+    background-color: rgba(0, 0, 0, 0.518);
+  }
+}
+
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .video-column {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .small-img-row {
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+
+  .full-img {
+    grid-template-columns: 1fr;
+  }
+  .feature-img {
+    width: 100%;
+  }
+  .small-img-row p {
+    text-align: center;
+    letter-spacing: 0.3px;
+    background-color: white;
+  }
+  .zero-margin {
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    font-size: 56%;
+  }
+
+  .logo-container img {
+    width: 20rem;
+  }
+  .personal-details-container img {
+    height: 3rem;
+  }
+  .small-heading-carousel {
+    font-size: 1.6rem;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .heading + p {
+    font-size: 1.7rem;
+  }
+  .tertiary-heading-cause {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-cause-container {
+    padding: 1rem;
+  }
+  .donation-main-container h3 {
+    font-size: 2.4rem;
+  }
+  .donation-color {
+    font-size: 2rem;
+  }
+  .cause-description {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .causes-checkpoint {
+    font-size: 1.6rem;
+  }
+  .footer-wrapper {
+    flex-direction: column;
+  }
+}
