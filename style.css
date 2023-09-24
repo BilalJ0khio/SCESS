@@ -661,6 +661,14 @@ video:focus {
   width: fit-content;
 }
 
+.color-orange {
+  color: #fb5e1c !important;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem !important;
+  display: inline-block;
+}
+
 .easy-paisa-account {
   margin-left: 2rem;
 }
@@ -686,11 +694,12 @@ video:focus {
 }
 
 .cta-margin {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .footer-section {
   border-top: 1px solid hsl(0, 0%, 90%);
+  background-color: #15181d;
   padding: 1rem;
 }
 
@@ -704,7 +713,7 @@ video:focus {
 
 .copywrite {
   font-size: 1.2rem;
-  color: #666;
+  color: #999;
   /* max-width: 200px; */
   line-height: 1.6;
 }

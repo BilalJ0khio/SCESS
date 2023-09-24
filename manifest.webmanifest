@@ -1,12 +1,12 @@
 {
   "icons": [
     {
-      "src": "android-192.png",
+      "src": "andriod-192-favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "android-512.png",
+      "src": "orange-favicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
