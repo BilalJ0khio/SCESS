@@ -252,6 +252,7 @@ a.color {
   font-size: 3.4rem;
   margin-bottom: 1rem;
   font-weight: bold;
+  line-height: 1.2;
 }
 
 .heading + p {
@@ -550,8 +551,8 @@ a.color {
   align-items: center;
   grid-template-columns: 150px 1fr;
   margin: 2rem 0rem;
-  /* background-color: #0a0c0e2b; */
-  background-color: #f1f4f6;
+  box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.134);
+  /* background-color: #f1f4f6; */
   border-radius: 0.6rem;
   width: 95%;
 }
@@ -563,6 +564,7 @@ a.color {
 .small-img-row p {
   line-height: 1.6;
   font-size: 1.4rem;
+  padding: 1rem;
 }
 
 .play-icon {
@@ -713,7 +715,7 @@ video:focus {
 
 .copywrite {
   font-size: 1.2rem;
-  color: #999;
+  color: hsl(218, 20%, 71%);
   /* max-width: 200px; */
   line-height: 1.6;
 }
@@ -721,4 +723,36 @@ video:focus {
 /* nav */
 .hide-nav-nb {
   display: none;
+}
+
+/* achievemet section */
+
+.achievement-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.achievement-wrapper {
+  /* border: 1px solid black; */
+  max-width: 1100px;
+  margin: 0px auto;
+  /* background-image: url("images/causes-images/welcome_one_bg.jpg"); */
+  box-shadow: 10px 0 40px 0 #e8e8e8, -10px 0 40px 0 #e8e8e8;
+  padding: 2rem;
+}
+
+.school-video {
+  display: block;
+  margin: 0px auto;
+  max-width: 848px;
+  width: 100%;
+}
+
+.video-caption {
+  max-width: 848px;
+  margin: 2rem auto;
+  color: #666;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  /* margin-bottom: 3rem; */
 }
